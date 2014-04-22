@@ -1,11 +1,11 @@
 {
-	"name": "jquery-boilerplate",
-	"version": "3.3.3",
-	"homepage": "http://jqueryboilerplate.com",
+	"name": "jquery-fadethis",
+	"version": "1.0.0",
+	"homepage": "https://github.com/zolweb/jquery-fadethis/",
 	"authors": [
-		"Zeno Rocha <hi@zenorocha.com>"
+		"Zol <contact@zol.fr>"
 	],
-	"description": "A jump-start for jQuery plugins development.",
+	"description": "A lightweight, simple, yet powerful jQuery plugin for appear-as-you-scroll features.",
 	"main": "src/jquery.boilerplate.js",
 	"keywords": [
 		"jquery",

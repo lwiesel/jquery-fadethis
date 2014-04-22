@@ -1,0 +1,177 @@
+body {
+	background: url('../img/gplaypattern.png') repeat;
+	font-family: "Open sans", sans-serif;
+	font-size: 1em;
+	line-height: 1.5;
+	color: #405060;
+
+	counter-reset: h1titles;
+}
+
+header {
+	text-align: center;
+	padding: 2em;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 5em;
+	font-family: Alike, sans-serif;
+}
+
+header h2 {
+	text-align: right;
+	margin: 0;
+	font-size: 1.2em;
+	font-style: normal;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	margin-top: 0;
+}
+
+section.main_section {
+	background-color: white;
+	padding:0;
+	margin-bottom: 20px;
+
+	border: 1px lightgray solid;
+
+	counter-increment: my-awesome-counter;
+}
+section.main_section p{
+	padding: 15px;
+}
+section section {
+	border-top: 1px lightgray solid;
+	padding: 15px;
+}
+section p{
+	margin: 0;
+}
+section.main_section section p {
+	padding: 0;
+	margin: 10px 0;
+}
+
+section h1{
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+	padding: 0 1em;
+}
+section h1:before {
+  content: counter(my-awesome-counter) ". ";
+}
+
+section h2 {
+	margin: 0;
+	font-size: 1.2em;
+	font-style: normal;
+	font-weight: 500;
+	padding: 10px 0;
+}
+
+.command {
+	border-bottom: solid 1px rgba(250, 250, 250, 0.6);
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+	padding: 10px 10px 10px 20px;
+
+	font-size: 0.9em;
+}
+.command ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.command ul li {
+	display:inline-block;
+	padding: 0 10px 0 0;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+.box_wrapper {
+	text-align: center;
+}
+.box_footprint {
+	-webkit-box-shadow: inset 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    inset 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         inset 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+
+	display: inline-block;
+}
+.box_footprint div{
+	height: 30px;
+	width: 30px;
+
+	border: 1px #666 solid;
+
+	background-color: gray;
+}
+
+code {
+	font-style: italic;
+	font-size: 1em;
+	font-family: 'Open sans', sans-serif;
+	display: block;
+	padding: 10px;
+	border: 1px lightgray solid;
+	margin: 5px 0;
+
+	color: #606070;
+}
+
+code.inline {
+	display: inline-block;
+}
+
+.well {
+	background-color: #eaf7ff;
+	padding: 0.8em !important;
+	text-align: justify;
+	margin-top: 1em;
+	font-size: 0.85em;
+}
+.well .icon {
+	text-align: center;
+	margin-left: -0.5em;
+}
+.well p {
+	margin: 0 !important;
+}
+
+footer {
+	background-color: white;
+	padding:0;
+	margin-bottom: 20px;
+
+	border: 1px lightgray solid;
+
+	counter-increment: my-awesome-counter;
+
+	font-size:0.8em;
+}
+footer p{
+	padding: 10px;
+	margin: 0;
+}

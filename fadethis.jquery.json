@@ -1,0 +1,35 @@
+{
+	"name": "fadethis",
+	"title": "jQuery FadeThis",
+	"description": "A lightweight, simple, yet powerful jQuery plugin for appear-as-you-scroll features.",
+	"keywords": [
+		"jquery",
+		"fade",
+		"plugins"
+	],
+	"version": "1.0.0",
+	"author": {
+		"name": "Zol",
+		"url": "http://www.zol.fr"
+	},
+	"maintainers": [
+		{
+			"name": "Laurent WIESEL",
+			"email": "laurent@zol.fr",
+			"url": "https://github.com/lwiesel"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://mit-license.org/"
+		}
+	],
+	"bugs": "https://github.com/zolweb/jquery-fadethis/issues",
+	"homepage": "https://github.com/zolweb/jquery-fadethis/",
+	"docs": "https://github.com/zolweb/jquery-fadethis#readme",
+	"download": "https://github.com/zolweb/jquery-fadethis/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}

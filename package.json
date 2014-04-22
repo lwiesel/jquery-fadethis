@@ -1,14 +1,14 @@
 {
-  "name": "jquery-boilerplate",
-  "title": "jQuery Boilerplate",
-  "description": "A jump-start for jQuery plugins development.",
-  "author": "Zeno Rocha",
+  "name": "jquery-fadethis",
+  "title": "jQuery FadeThis",
+  "description": "A lightweight jQuery plugin for fade-as-you-scroll features",
+  "author": "Zol",
   "repository": {
     "type": "git",
-    "url": "http://github.com/jquery-boilerplate/jquery-boilerplate.git"
+    "url": "http://github.com/zolweb/jquery-fadethis.git"
   },
-  "homepage": "https://github.com/jquery-boilerplate/jquery-boilerplate/",
-  "version": "3.3.3",
+  "homepage": "https://github.com/zolweb/jquery-fadethis/",
+  "version": "1.0.0",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-cli": "~0.1.13",
