@@ -57,8 +57,6 @@
 
             _watch.push(item);
 
-            console.log(item);
-
             this._prepareElement(item);
 
             return $elem;
