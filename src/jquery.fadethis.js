@@ -6,6 +6,11 @@
         Plugin  = function() { }
     ;
 
+    $.expr[":"].hasClassStartingWith = function(el, i, selector) {
+        var re = new RegExp("\\b" + selector[3]);
+        return re.test(el.className);
+    };
+
     Plugin.prototype = {
         globals: {
             pluginName: "fadeThis",
@@ -34,9 +39,9 @@
                 classBaseName   = (options && options.baseName) ? options.baseName : this.defaults.baseName
             ;
             
-            if (!$element.is("[class^='" + classBaseName + "']")) {
+            if (!$element.is(":hasClassStartingWith('" + classBaseName + "')")) {
 
-                $element.find("[class^='" + classBaseName + "']").each(function() {
+                $element.find(":hasClassStartingWith('" + classBaseName + "')").each(function() {
                     base._addElement($(this), options);
                 });
             } else {
