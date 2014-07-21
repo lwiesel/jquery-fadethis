@@ -8,7 +8,7 @@
     "url": "http://github.com/zolweb/jquery-fadethis.git"
   },
   "homepage": "https://github.com/zolweb/jquery-fadethis/",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-cli": "~0.1.13",

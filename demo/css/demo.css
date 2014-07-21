@@ -54,6 +54,7 @@ section.main_section p{
 section section {
 	border-top: 1px lightgray solid;
 	padding: 15px;
+	overflow: hidden;
 }
 section p{
 	margin: 0;
