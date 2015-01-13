@@ -3,7 +3,7 @@
  *  A lightweight, simple, yet powerful jQuery plugin for appear-as-you-scroll features.
  *  http://jqueryfadethis.com
  *
- *  Made by Zol
+ *  Made by lwiesel
  *  Under MIT License
  */
 ;(function ( $, window, document, undefined ) {
