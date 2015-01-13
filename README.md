@@ -22,11 +22,13 @@
 	$(window).fadeThis();
 	```
 
-[See the full documentation here](http://zolweb.github.io/jquery-fadethis)
+[See the full documentation here](http://lwiesel.github.io/jquery-fadethis)
 
 ## License
 
 The MIT License (MIT)
+
+Copyright (c) 2015 Laurent Wiesel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

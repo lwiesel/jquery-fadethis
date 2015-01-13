@@ -7,16 +7,14 @@
 		"fade",
 		"plugins"
 	],
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"author": {
-		"name": "Zol",
-		"email": "contact@zol.fr",
-		"url": "http://www.zol.fr"
+		"name": "Laurent Wiesel",
+	  	"url": "https://github.com/lwiesel"
 	},
 	"maintainers": [
 		{
 			"name": "Laurent WIESEL",
-			"email": "laurent@zol.fr",
 			"url": "https://github.com/lwiesel"
 		}
 	],
@@ -26,10 +24,10 @@
 			"url": "http://mit-license.org/"
 		}
 	],
-	"bugs": "https://github.com/zolweb/jquery-fadethis/issues",
-	"homepage": "https://github.com/zolweb/jquery-fadethis/",
-	"docs": "https://github.com/zolweb/jquery-fadethis#readme",
-	"download": "https://github.com/zolweb/jquery-fadethis/archive/master.zip",
+	"bugs": "https://github.com/lwiesel/jquery-fadethis/issues",
+	"homepage": "https://github.com/lwiesel/jquery-fadethis/",
+	"docs": "https://github.com/lwiesel/jquery-fadethis#readme",
+	"download": "https://github.com/lwiesel/jquery-fadethis/archive/master.zip",
 	"dependencies": {
 		"jquery": ">=1.4"
 	}

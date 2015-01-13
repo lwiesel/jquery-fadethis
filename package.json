@@ -2,13 +2,13 @@
   "name": "jquery-fadethis",
   "title": "jQuery FadeThis",
   "description": "A lightweight jQuery plugin for fade-as-you-scroll features",
-  "author": "Zol",
+  "author": "lwiesel",
   "repository": {
     "type": "git",
-    "url": "http://github.com/zolweb/jquery-fadethis.git"
+    "url": "http://github.com/lwiesel/jquery-fadethis.git"
   },
-  "homepage": "https://github.com/zolweb/jquery-fadethis/",
-  "version": "1.0.3",
+  "homepage": "https://github.com/lwiesel/jquery-fadethis/",
+  "version": "1.0.4",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-cli": "~0.1.13",
